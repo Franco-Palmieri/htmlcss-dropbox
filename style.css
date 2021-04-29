@@ -30,6 +30,27 @@ nav{
     display: inline-block;
     line-height: 25px;
     margin-left: 30px;
+    font-size: 15px;
+}
+.bottone, .bottone-2{
+    background-color: blue;
+    text-align: center;
+}
+.bottone{
+    width: 60px;
+}
+.bottone-2{
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px 0 10px 0;
+}
+.bottone-2 a, .bottone a{
+    color: white;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
 }
 .logo{
 }
@@ -51,7 +72,7 @@ header{
 }
 .paragrafo-1{
     width: 310px;
-    height: 250px;
+    height: 300px;
     border: 1px solid red;
     margin-right: 100px;
     font-size: 18px;
@@ -61,12 +82,22 @@ header{
 .contenitore-2{
     width: 900px;
     border: 1px solid blue;
-    margin: 100px auto;
+    margin: 150px auto;
+}
+.titolo-2{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.input span{
+    margin-right: 20px;
+}
+.input{
+    margin-bottom: 20px;
 }
 .colonna{
-    width: calc(33% - 50px);
+    width: calc(33% - 30px);
     height: 600px;
-    margin-right: 50px;
+    margin-right: 30px;
     border: 1px solid lightgray;
 }
 .colonna:last-child{
