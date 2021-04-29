@@ -31,7 +31,7 @@ li{
     margin-left: 30px;
     font-size: 15px;
 }
-.bottone, .bottone-2, .bottone-colonna{
+.bottone, .bottone-2, .bottone-colonna, .bottone-colonna-orizzontale{
     background-color: rgb(83, 123, 255);
     text-align: center;
 }
@@ -44,13 +44,10 @@ li{
     line-height: 30px;
     margin: 20px 0 10px 0;
 }
-.bottone-2 a, .bottone a, .bottone-colonna a{
+.bottone-2 a, .bottone a, .bottone-colonna a, .bottone-colonna-orizzontale a{
     color: white;
     padding: 10px;
     text-decoration: none;
-}
-
-.logo{
 }
 header{
     background-color: lightblue;
@@ -81,7 +78,6 @@ header{
 .contenitore-2{
     width: 1000px;
     margin: 150px auto;
-    border: 1px solid blue;
 }
 .titolo-2{
     font-size: 28px;
@@ -98,12 +94,12 @@ header{
     height: 740px;
     border: 1px solid lightgray;
 }
- .colonna .capocolonna{
-     text-align: center;
+ .capocolonna{
+    text-align: center;
     border-bottom:1px solid lightgray;
-    height: 30px;
+    height: 50px;
     width: 100%;
-    line-height: 30px;
+    line-height: 50px;
 }
 .colonna-interna{
     padding: 20px;
@@ -142,3 +138,32 @@ header{
 .lista-colonna-3{
     padding: 10px;
 }
+.colonna-orizzontale{
+    margin-top: 40px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+.colonna-orizzontale .colonna-interna{
+    position: relative;
+}
+.ciao{
+    margin: 40px 0 10px 0;
+}
+.bottone-colonna-orizzontale{
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.colonna-orizzontale .colonna-interna h4{
+    margin-bottom: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+.spazio{
+    margin-top: 20px;
+}
+
