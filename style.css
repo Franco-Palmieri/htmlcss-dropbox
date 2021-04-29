@@ -25,15 +25,17 @@ nav{
     width: 100%;
     
 }
-.lista-sinistra li, .lista-destra li{
+li{
     list-style: none;
+}
+.lista-sinistra li, .lista-destra li{
     display: inline-block;
     line-height: 25px;
     margin-left: 30px;
     font-size: 15px;
 }
 .bottone, .bottone-2{
-    background-color: blue;
+    background-color: rgb(83, 123, 255);
     text-align: center;
 }
 .bottone{
@@ -77,6 +79,10 @@ header{
     margin-right: 100px;
     font-size: 18px;
 }
+.arrow{
+    margin-top: 30px;
+    font-size: 40px;
+}
 .img-1{
 }
 .contenitore-2{
@@ -95,13 +101,13 @@ header{
     margin-bottom: 20px;
 }
 .colonna{
-    width: calc(33% - 30px);
+    width: calc(33% - 50px);
     height: 600px;
-    margin-right: 30px;
     border: 1px solid lightgray;
+    margin-right: 50px;
 }
 .colonna:last-child{
-    margin-right: 0;
+    margin-right: 0px;
 }
  .colonna .capocolonna{
      text-align: center;
@@ -109,4 +115,7 @@ header{
     height: 30px;
     width: 100%;
     line-height: 30px;
+}
+.colonna-interna{
+    padding: 20px;
 }
