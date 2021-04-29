@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .clearfix::after{
     content: "";
@@ -39,7 +40,7 @@ li{
     width: 60px;
 }
 .bottone-2{
-    width: 220px;
+    width: 250px;
     height: 30px;
     line-height: 30px;
     margin: 20px 0 10px 0;
@@ -67,11 +68,11 @@ header{
     width: 310px;
     height: 300px;
     margin-right: 100px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .arrow{
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .img-1{
 }
@@ -91,7 +92,7 @@ header{
 }
 .colonna{
     width: calc(100% / 3 - 14px);
-    height: 740px;
+    height: 850px;
     border: 1px solid lightgray;
 }
  .capocolonna{
@@ -100,6 +101,7 @@ header{
     height: 50px;
     width: 100%;
     line-height: 50px;
+    font-weight: bold;
 }
 .colonna-interna{
     padding: 20px;
@@ -112,7 +114,7 @@ header{
     width: 200px;
     height: 30px;
     line-height: 30px;
-    margin: 40px 0 20px 0;
+    margin: 60px 0 20px 0;
 }
 .lista-colonna{
     margin-bottom: 20px;
@@ -165,5 +167,24 @@ header{
 }
 .spazio{
     margin-top: 20px;
+}
+ .testo{
+    width: 450px;
+    height: 450px;
+    padding: 100px;
+}
+.testo p{
+    margin: 20px 0 25px 0;
+}
+.bottone-partner{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 34px;
+    border: 2px solid rgb(95, 95, 95);
+}
+.bottone-partner a{
+    text-decoration: none;
+    color: rgb(95, 95, 95);
 }
 
