@@ -11,10 +11,27 @@
 .fl{
     float: left;
 }
+.fr{
+    float: right;
+}
+nav{
+    height: 60px;
+    background-color: lightpink;
+    padding: 15px;
+}
 .topbar{
-    height: 50px;
+    height: 25px;
     background-color: red;
     width: 100%;
+    
+}
+.lista-sinistra li, .lista-destra li{
+    list-style: none;
+    display: inline-block;
+    line-height: 25px;
+    margin-left: 30px;
+}
+.logo{
 }
 header{
     background-color: lightblue;
@@ -39,7 +56,23 @@ header{
     border: 1px solid green;
 }
 .contenitore-2{
-    width: 1000px;
+    width: 900px;
     border: 1px solid blue;
-    margin: 0 auto;
+    margin: 100px auto;
+}
+.colonna{
+    width: calc(33% - 50px);
+    height: 600px;
+    margin-right: 50px;
+    border: 1px solid lightgray;
+}
+.colonna:last-child{
+    margin-right: 0;
+}
+ .colonna .capocolonna{
+     text-align: center;
+    border-bottom:1px solid lightgray;
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
 }
