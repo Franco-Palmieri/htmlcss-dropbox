@@ -101,10 +101,10 @@ header{
     margin-bottom: 20px;
 }
 .colonna{
-    width: calc(33% - 50px);
+    width:  250px;
     height: 600px;
     border: 1px solid lightgray;
-    margin-right: 50px;
+    margin-right: 74px;
 }
 .colonna:last-child{
     margin-right: 0px;
