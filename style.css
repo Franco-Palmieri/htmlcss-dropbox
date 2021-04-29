@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+nav{
+    height: 50px;
+    background-color: red;
+    width: 100%;
+}
+header{
+    background-color: lightblue;
+    width: 100%;
+    height: 500px;
+}
+.contenitore-1{
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.paragrafo-1{
+    width: 250px;
+    height: 250px;
+    border: 1px solid red;
+}
+.img-1{
+    width: 300px;
+    height: 300px;
+    border: 1px solid green;
+}
