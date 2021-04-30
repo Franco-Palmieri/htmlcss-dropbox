@@ -218,12 +218,10 @@ header{
 }
 .contenitore-3{
     width: 100%;
-    margin: 0 0 50px 0;
 }
 .riquadro{
     width: calc(100% / 3);
     height: 480px;
-    border: 1px solid black;
 }
 .quadrato{
     width: 50%;
@@ -259,5 +257,21 @@ header{
 }
 .yellow{
     background-color: yellow;
+}
+.middle{
+    background-color: rgb(238, 237, 237);
+    padding: 80px 40px;
+}
+.border-middle{
+    width: 50px;
+    border-bottom: 1px solid black;
+    margin: 20px 0 40px 0;
+}
+.middle p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.middle span{
+    font-size: 13px;
 }
 
