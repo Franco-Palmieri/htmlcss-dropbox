@@ -218,6 +218,7 @@ header{
 }
 .contenitore-3{
     width: 100%;
+    margin-bottom: 100px;
 }
 .riquadro{
     width: calc(100% / 3);
@@ -294,5 +295,14 @@ header{
 .bottone-bottom a{
     text-decoration: none;
     color: black;
+}
+.border-questions{
+    margin: 30px auto;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+.arrow-questions{
+    margin-right: 50px;
+    font-size: 20px;
 }
 
