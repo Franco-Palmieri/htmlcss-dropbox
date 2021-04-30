@@ -227,7 +227,37 @@ header{
 }
 .quadrato{
     width: 50%;
-    height: 240px; 
-    border: 1px solid red;   
+    height: 240px;
+    position: relative;   
+}
+.quadrato img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.green{
+    background-color: rgb(202, 223, 171);
+}
+.bordò{
+    background-color: rgb(109, 29, 29);
+}
+.azzurro{
+    background-color: rgb(75, 117, 255);
+}
+.red{
+    background-color: red;
+}
+.lightred{
+    background-color: rgb(233, 105, 105);
+}
+.lightblue{
+    background-color: lightskyblue;
+}
+.blue{
+    background-color: rgb(68, 68, 197);
+}
+.yellow{
+    background-color: yellow;
 }
 
