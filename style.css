@@ -216,4 +216,18 @@ header{
 .items-bottom a{
     font-size: 15px;
 }
+.contenitore-3{
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+.riquadro{
+    width: calc(100% / 3);
+    height: 480px;
+    border: 1px solid black;
+}
+.quadrato{
+    width: 50%;
+    height: 240px; 
+    border: 1px solid red;   
+}
 
