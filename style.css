@@ -62,7 +62,7 @@ header{
 }
 .titolo-1{
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 26px;
 }
 .paragrafo-1{
     width: 310px;
@@ -91,9 +91,12 @@ header{
     margin-bottom: 20px;
 }
 .colonna{
-    width: calc(100% / 3 - 14px);
+    width: calc(100% / 3 - 20px);
     height: 850px;
     border: 1px solid lightgray;
+}
+.center{
+    margin: 0 30px;
 }
  .capocolonna{
     text-align: center;
@@ -105,10 +108,6 @@ header{
 }
 .colonna-interna{
     padding: 20px;
-}
-.spazio-colonne{
-    width: 20px;
-    height: 600px;
 }
 .bottone-colonna{
     width: 250px;
@@ -184,5 +183,23 @@ header{
 .bottone-partner a{
     text-decoration: none;
     color: rgb(95, 95, 95);
+}
+.fas{
+    height: 10px;
+    width: 10px;
+    color: black;
+}
+.contenitore-2{
+    background-color: red;
+}
+.contenitore-items{
+    width: 100%;
+    margin-top: 50px;
+}
+.items{
+    width: calc(100% / 3 - 20px);
+    height: 400px;
+    border: 1px solid black;
+    margin-bottom: 100px;
 }
 
