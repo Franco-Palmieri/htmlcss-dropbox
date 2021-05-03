@@ -78,7 +78,11 @@ header{
 }
 .contenitore-2{
     width: 1000px;
-    margin: 100px auto;
+    margin: 150px auto;
+}
+.contenitore-2-middle{
+    width: 1000px;
+    margin: 50px auto;
 }
 .titolo-2{
     font-size: 28px;
@@ -342,4 +346,5 @@ footer{
     position: absolute;
     bottom: 60px;
     left: 30px;
+    opacity: .5;
 }
