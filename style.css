@@ -233,11 +233,15 @@ header{
     height: 240px;
     position: relative;   
 }
-.box-university img{
+.box-university svg{
+    width: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.box-university svg path, .box-university svg{
+    fill: white;
 }
 .green{
     background-color: rgb(202, 223, 171);
