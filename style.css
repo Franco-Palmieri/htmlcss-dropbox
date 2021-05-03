@@ -57,7 +57,7 @@ header{
     padding: 50px;
 }
 .contenitore-1{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
 }
 .titolo-1{
@@ -321,14 +321,13 @@ footer{
 }
 .contenitore-4{
     width: 1000px;
-    height: 500px;
+    height: 300px;
     margin: 0 auto;
     padding-top: 100px;
-    position: relative;
 }
 .lista-footer{
     width: calc(100% / 5 - 30px);
-    height: 220px;
+    height: 200px;
     margin-left: 30px;
 }
 .capolista-footer{
@@ -341,14 +340,9 @@ footer{
 .lista-footer li:first-child{
     margin-top: 20px;
 }
-.border-footer{
+.selettore{
+    margin: 230px 0 0 30px;
+    border-top: 1px solid lightgray;
     width: 100px;
-    margin: 50px 0 30px 30px;
-    border-bottom: 2px solid lightgray;
-}
-.select{
-    position: absolute;
-    bottom: 60px;
-    left: 30px;
-    opacity: .5;
+    padding-top: 50px;
 }
